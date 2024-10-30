@@ -28,7 +28,7 @@ namespace Ex04_MVC
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Warehouse}/{action=Index}/{id?}");
 
             app.Run();
         }
